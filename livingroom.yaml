@@ -8,7 +8,7 @@ sensor:
   - platform: adc
     pin: A0
     name: Living Room Temperature
-    update_interval: 10s
+    update_interval: 60s
     unit_of_measurement: "°C"
     accuracy_decimals: 1 
     icon: mdi:thermometer
