@@ -1,0 +1,1 @@
+esphomeyaml livingroom.yaml run
