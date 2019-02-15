@@ -1,8 +1,7 @@
 esphomeyaml:
-  name: livingroom_temperature
+  name: livingroom_sensors
   platform: ESP8266
   board: nodemcuv2
-
 
 sensor:
   - platform: adc
@@ -14,6 +13,11 @@ sensor:
     icon: mdi:thermometer
     filters:
       - lambda: return (x/1024.0)*330000;
+binary_sensor:
+  - platform: gpio
+    pin: D0
+    name: Living Room Motion
+    device_class: motion
 
 wifi:
   ssid: 'salmona'
