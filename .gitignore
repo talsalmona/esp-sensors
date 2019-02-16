@@ -8,7 +8,7 @@
 **/src/
 **/bin/
 **/include/
-**/livingroom_temperature/
+**/livingroom_sensors/
 **/platformio.ini
 /pip-selfcheck.json
 /secrets.yaml
