@@ -21,5 +21,5 @@ six==1.12.0
 tornado==5.1.1
 typing==3.6.6
 tzlocal==1.5.1
-urllib3==1.24.1
+urllib3==1.24.2
 voluptuous==0.11.5
